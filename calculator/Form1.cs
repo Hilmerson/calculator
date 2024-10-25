@@ -30,8 +30,15 @@ namespace calculator
                     lblResult.Text = result.ToString();
                     break;
                 case "/":
-                    result = number1 / number2;
-                    lblResult.Text = result.ToString();
+                    if (number2 != 0)
+                    {
+                        result = number1 / number2;
+                        lblResult.Text = result.ToString();
+                    }
+                    else
+                    {
+                        lblResult.Text = "Cannot divide by 0.";
+                    }
                     break;
                 default:
                     lblResult.Text = "Invalid input";

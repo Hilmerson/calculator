@@ -51,7 +51,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(310, 103);
+            textBox1.Location = new Point(310, 84);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(131, 23);
             textBox1.TabIndex = 0;
@@ -60,7 +60,7 @@
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(310, 136);
+            lblResult.Location = new Point(310, 115);
             lblResult.Name = "lblResult";
             lblResult.Size = new Size(13, 15);
             lblResult.TabIndex = 2;
