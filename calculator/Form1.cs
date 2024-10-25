@@ -3,16 +3,17 @@ namespace calculator
     public partial class Form1 : Form
     {
         string mathOperator = "";
+        decimal number1;
+        decimal number2;
+        decimal result;
         public Form1()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnEquals(object sender, EventArgs e)
         {
-            decimal number1 = Convert.ToDecimal(textBox1.Text);
-            decimal number2 = Convert.ToDecimal(textBox2.Text);
-            decimal result;
+            number2 = Convert.ToDecimal(textBox1.Text);
 
             switch (mathOperator)
             {
@@ -41,7 +42,10 @@ namespace calculator
         private void btnOperatorHandler(object sender, EventArgs e)
         {
             Button button = (Button)sender;
+
+            number1 = Convert.ToDecimal(textBox1.Text);
             mathOperator = button.Text;
+            textBox1.Clear();
         }
 
         private void btnNumberHandler(object sender, EventArgs e)
@@ -53,6 +57,11 @@ namespace calculator
             {
                 textBox1.Text += btnNumber.Tag;
             }
+        }
+
+        private void btnClear(object sender, EventArgs e)
+        {
+            textBox1.Clear();
         }
     }
 }

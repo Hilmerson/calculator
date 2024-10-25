@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             textBox1 = new TextBox();
-            textBox2 = new TextBox();
             lblResult = new Label();
             button1 = new Button();
             btnDivide = new Button();
@@ -47,26 +46,21 @@
             button10 = new Button();
             button11 = new Button();
             button12 = new Button();
+            button13 = new Button();
             SuspendLayout();
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(187, 161);
+            textBox1.Location = new Point(310, 103);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(131, 23);
             textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(187, 219);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 1;
+            textBox1.TextAlign = HorizontalAlignment.Right;
             // 
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(187, 249);
+            lblResult.Location = new Point(310, 136);
             lblResult.Name = "lblResult";
             lblResult.Size = new Size(13, 15);
             lblResult.TabIndex = 2;
@@ -81,7 +75,7 @@
             button1.TabIndex = 3;
             button1.Text = "=";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
+            button1.Click += btnEquals;
             // 
             // btnDivide
             // 
@@ -245,11 +239,22 @@
             button12.UseVisualStyleBackColor = true;
             button12.Click += btnNumberHandler;
             // 
+            // button13
+            // 
+            button13.Location = new Point(359, 132);
+            button13.Name = "button13";
+            button13.Size = new Size(38, 23);
+            button13.TabIndex = 19;
+            button13.Text = "C";
+            button13.UseVisualStyleBackColor = true;
+            button13.Click += btnClear;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button13);
             Controls.Add(button12);
             Controls.Add(button11);
             Controls.Add(button10);
@@ -267,7 +272,6 @@
             Controls.Add(btnDivide);
             Controls.Add(button1);
             Controls.Add(lblResult);
-            Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "Form1";
             Text = "Form1";
@@ -278,7 +282,6 @@
         #endregion
 
         private TextBox textBox1;
-        private TextBox textBox2;
         private Label lblResult;
         private Button button1;
         private Button btnDivide;
@@ -296,5 +299,6 @@
         private Button button10;
         private Button button11;
         private Button button12;
+        private Button button13;
     }
 }
