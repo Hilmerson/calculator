@@ -19,21 +19,21 @@ namespace calculator
             {
                 case "+":
                     result = number1 + number2;
-                    lblResult.Text = result.ToString();
+                    textBox1.Text = result.ToString();
                     break;
                 case "-":
                     result = number1 - number2;
-                    lblResult.Text = result.ToString();
+                    textBox1.Text = result.ToString();
                     break;
                 case "*":
                     result = number1 * number2;
-                    lblResult.Text = result.ToString();
+                    textBox1.Text = result.ToString();
                     break;
                 case "/":
                     if (number2 != 0)
                     {
                         result = number1 / number2;
-                        lblResult.Text = result.ToString();
+                        textBox1.Text = result.ToString();
                     }
                     else
                     {
