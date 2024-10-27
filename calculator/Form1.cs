@@ -56,6 +56,7 @@ namespace calculator
 
         private void btnNumberHandler(object sender, EventArgs e)
         {
+            lblResult.Text = "";
             Button btnNumber = (Button)sender;
             if (operatorClicked)
             {
