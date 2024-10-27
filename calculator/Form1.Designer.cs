@@ -51,7 +51,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(310, 84);
+            textBox1.Location = new Point(12, 31);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(131, 23);
             textBox1.TabIndex = 0;
@@ -60,16 +60,15 @@
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(310, 115);
+            lblResult.Location = new Point(12, 62);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(13, 15);
+            lblResult.Size = new Size(0, 15);
             lblResult.TabIndex = 2;
-            lblResult.Text = "0";
             // 
             // button1
             // 
             button1.BackColor = SystemColors.ControlLight;
-            button1.Location = new Point(403, 249);
+            button1.Location = new Point(105, 196);
             button1.Name = "button1";
             button1.Size = new Size(38, 23);
             button1.TabIndex = 3;
@@ -79,7 +78,7 @@
             // 
             // btnDivide
             // 
-            btnDivide.Location = new Point(403, 133);
+            btnDivide.Location = new Point(105, 80);
             btnDivide.Name = "btnDivide";
             btnDivide.Size = new Size(38, 23);
             btnDivide.TabIndex = 4;
@@ -89,7 +88,7 @@
             // 
             // btnPlus
             // 
-            btnPlus.Location = new Point(403, 220);
+            btnPlus.Location = new Point(105, 167);
             btnPlus.Name = "btnPlus";
             btnPlus.Size = new Size(38, 23);
             btnPlus.TabIndex = 5;
@@ -100,7 +99,7 @@
             // 
             // btnMinus
             // 
-            btnMinus.Location = new Point(403, 191);
+            btnMinus.Location = new Point(105, 138);
             btnMinus.Name = "btnMinus";
             btnMinus.Size = new Size(38, 23);
             btnMinus.TabIndex = 6;
@@ -110,7 +109,7 @@
             // 
             // btnMultiply
             // 
-            btnMultiply.Location = new Point(403, 162);
+            btnMultiply.Location = new Point(105, 109);
             btnMultiply.Name = "btnMultiply";
             btnMultiply.Size = new Size(38, 23);
             btnMultiply.TabIndex = 7;
@@ -120,7 +119,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(341, 161);
+            button2.Location = new Point(43, 108);
             button2.Name = "button2";
             button2.Size = new Size(25, 23);
             button2.TabIndex = 8;
@@ -131,7 +130,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(372, 219);
+            button3.Location = new Point(74, 166);
             button3.Name = "button3";
             button3.Size = new Size(25, 23);
             button3.TabIndex = 9;
@@ -142,7 +141,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(310, 190);
+            button4.Location = new Point(12, 137);
             button4.Name = "button4";
             button4.Size = new Size(25, 23);
             button4.TabIndex = 10;
@@ -153,7 +152,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(372, 248);
+            button5.Location = new Point(74, 195);
             button5.Name = "button5";
             button5.Size = new Size(25, 23);
             button5.TabIndex = 11;
@@ -164,7 +163,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(341, 248);
+            button6.Location = new Point(43, 195);
             button6.Name = "button6";
             button6.Size = new Size(25, 23);
             button6.TabIndex = 12;
@@ -175,7 +174,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(372, 161);
+            button7.Location = new Point(74, 108);
             button7.Name = "button7";
             button7.Size = new Size(25, 23);
             button7.TabIndex = 13;
@@ -186,7 +185,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(310, 161);
+            button8.Location = new Point(12, 108);
             button8.Name = "button8";
             button8.Size = new Size(25, 23);
             button8.TabIndex = 14;
@@ -197,7 +196,7 @@
             // 
             // button9
             // 
-            button9.Location = new Point(372, 190);
+            button9.Location = new Point(74, 137);
             button9.Name = "button9";
             button9.Size = new Size(25, 23);
             button9.TabIndex = 15;
@@ -208,7 +207,7 @@
             // 
             // button10
             // 
-            button10.Location = new Point(341, 190);
+            button10.Location = new Point(43, 137);
             button10.Name = "button10";
             button10.Size = new Size(25, 23);
             button10.TabIndex = 16;
@@ -219,7 +218,7 @@
             // 
             // button11
             // 
-            button11.Location = new Point(341, 219);
+            button11.Location = new Point(43, 166);
             button11.Name = "button11";
             button11.Size = new Size(25, 23);
             button11.TabIndex = 17;
@@ -230,7 +229,7 @@
             // 
             // button12
             // 
-            button12.Location = new Point(310, 219);
+            button12.Location = new Point(12, 166);
             button12.Name = "button12";
             button12.Size = new Size(25, 23);
             button12.TabIndex = 18;
@@ -241,7 +240,7 @@
             // 
             // button13
             // 
-            button13.Location = new Point(359, 132);
+            button13.Location = new Point(61, 79);
             button13.Name = "button13";
             button13.Size = new Size(38, 23);
             button13.TabIndex = 19;
@@ -253,7 +252,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(167, 243);
             Controls.Add(button13);
             Controls.Add(button12);
             Controls.Add(button11);
@@ -274,7 +273,7 @@
             Controls.Add(lblResult);
             Controls.Add(textBox1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calculator";
             ResumeLayout(false);
             PerformLayout();
         }

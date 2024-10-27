@@ -14,7 +14,10 @@ namespace calculator
 
         private void btnEquals(object sender, EventArgs e)
         {
-            number2 = Convert.ToDecimal(textBox1.Text);
+            if (!decimal.TryParse(textBox1.Text, out number2)) {
+                lblResult.Text = "Invalid input";
+                return;
+            }
 
             switch (mathOperator)
             {
@@ -50,6 +53,11 @@ namespace calculator
             Button button = (Button)sender;
             operatorClicked = true;
 
+            if (!decimal.TryParse(textBox1.Text, out number2))
+            {
+                lblResult.Text = "Invalid input";
+                return;
+            }
             number1 = Convert.ToDecimal(textBox1.Text);
             mathOperator = button.Text;
         }
